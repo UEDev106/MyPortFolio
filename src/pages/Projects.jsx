@@ -8,7 +8,7 @@ import Age from "../assets/projects/Age.png";
 import weather from "../assets/projects/weather.jpg";
 import Rock from "../assets/projects/Rock.png";
 import Todo from "../assets/projects/Todo.jpg";
-
+import Crud from '../assets/projects/Crud.png'
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -86,6 +86,16 @@ const Projects = () => {
               description="Developed a feature-rich Todo List application using React.js, aimed at enhancing productivity through efficient task management. The project demonstrates expertise in React's component-based architecture, state management, and modern front-end development practices."
               ghLink="https://github.com/UEDev106/Todolist"
               demoLink="https://todolist106.netlify.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Crud}
+              isBlog={false}
+              title="CRUD Operation"
+              description="CRUD is a mechanism that allows modern web applications to manage large datasets effectively. Despite sounding like a word, CRUD is not an English word but an acronym for Create, Read, Update, and Delete. These operations allow users to manipulate and interact with data from the application. In this post, you'll learn about CRUD and all its operations, why people prefer it, and how to set up the React CRUD environment."
+             ghLink="https://github.com/UEDev106/Crud"
+             
             />
           </Col>
         </Row>
