@@ -74,7 +74,7 @@ const Projects = () => {
               title="Tic Toc Toe"
               description="Implemented the core game mechanics, including player turns, win conditions, and draw detection.Designed an intuitive and responsive user interface that allows users to easily interact with the game on various devices."
               ghLink="https://github.com/UEDev106/TicTocToe"
-              demoLink="https://project-krypto.netlify.app/"
+              
             />
           </Col>
 
