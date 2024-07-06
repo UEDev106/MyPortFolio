@@ -23,11 +23,18 @@ const Techstack = () => {
         <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMaterialui />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiJquery />
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
@@ -35,17 +42,12 @@ const Techstack = () => {
         <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJquery />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>

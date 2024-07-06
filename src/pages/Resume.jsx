@@ -10,7 +10,7 @@ import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 // Ensure the path to the PDF is correct
-const pdf = `${process.env.PUBLIC_URL}/Ali.pdf`;
+const pdf = `${process.env.PUBLIC_URL}/AliResume.pdf`;
 
 const Resume = () => {
   const [width, setWidth] = useState(window.innerWidth);

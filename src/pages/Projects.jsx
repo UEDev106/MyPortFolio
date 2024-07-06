@@ -28,6 +28,7 @@ const Projects = () => {
               title="Weather APP"
               description="The app utilizes the OpenWeatherMap API to fetch real-time weather data. Users can search for any city or allow the app to access their geolocation for automatic weather updates. The app displays current weather conditions and a detailed forecast for the upcoming week, all presented in an easy-to-read format.Weather forecasting is essential for planning daily activities, and having a reliable source of weather information can significantly impact our day-to-day decisions.r accurate weather information for personal"
               ghLink="https://github.com/UEDev106/Weather_Forecasting"
+              demoLink="https://vercel.com/ali-uedev106-projects/weather-forecasting"
             />
           </Col>
 
@@ -38,6 +39,7 @@ const Projects = () => {
               title="Age Calculator"
               description="Developed an interactive age calculator application using React.js, designed to compute a user's exact age based on their date of birth. The app showcases proficiency in React's component-based architecture and state management.Ensured optimal performance and user experience across various devices with a mobile-first design approach.Implemented robust form validation to handle invalid or incomplete inputs, enhancing the app's usability and reliability."
               ghLink="https://github.com/UEDev106/Age_Calculator"
+              demoLink="https://vercel.com/ali-uedev106-projects/age-calculator"
             />
           </Col>
 
@@ -50,6 +52,7 @@ const Projects = () => {
              Managed application state and asynchronous actions with Redux"
 
               ghLink="https://github.com/UEDev106/UEdev_Pizza_Hut"
+              demoLink="https://uevdev106pizzahut.netlify.app"
             />
           </Col>
 
@@ -60,6 +63,7 @@ const Projects = () => {
               title="Paper Sissor Rock"
               description="Implemented classic Rock Paper Scissors logic allowing players to compete against the computer.JavaScript Programming: Utilized JavaScript for game logic, event handling, and DOM manipulation to create a seamless and engaging user experi"
               ghLink="https://github.com/UEDev106/Paper_Rock_Sissors"
+              demoLink="https://vercel.com/ali-uedev106-projects/paper-rock-sissors"
             />
           </Col>
 
@@ -80,7 +84,8 @@ const Projects = () => {
               isBlog={false}
               title="Todo List"
               description="Developed a feature-rich Todo List application using React.js, aimed at enhancing productivity through efficient task management. The project demonstrates expertise in React's component-based architecture, state management, and modern front-end development practices."
-              ghLink="https://github.com/UEDev106/Todolist_Reactjs"
+              ghLink="https://github.com/UEDev106/Todolist"
+              demoLink="https://todolist106.netlify.app"
             />
           </Col>
         </Row>
