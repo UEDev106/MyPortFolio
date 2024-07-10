@@ -98,6 +98,28 @@ const Projects = () => {
              
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Crud}
+              isBlog={false}
+              title="UEDev Music Player"
+              description="Developed an interactive Music Player using HTML, CSS, and JavaScript. This web application allows users to enjoy their favorite music with essential playback controls and an intuitive interface. Users can easily increase or decrease the volume.Includes functionalities for play, pause, next, and previous tracks.Random Play"
+             ghLink="https://github.com/UEDev106/UeMusicPlayer"
+             demoLink="https://uedevmusicplayer.netlify.app"
+             
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Crud}
+              isBlog={false}
+              title="Grades Calculator"
+              description="Developed a comprehensive Student's Grade Calculator using HTML, CSS, and JavaScript. This web application is designed to simplify the process of managing and analyzing students' academic performance.Users can input the CGPA for each student.Instant calculations and updates as new CGPA entries are added, leveraging JavaScript for dynamic interactions."
+             ghLink="https://github.com/UEDev106/Student-Grade-Calculator"
+             demoLink="https://uedev-grades-calculator.netlify.app/"
+             
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
